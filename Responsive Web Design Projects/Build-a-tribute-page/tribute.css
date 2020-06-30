@@ -1,0 +1,92 @@
+body {
+    background: url("https://wallpaperaccess.com/full/819305.jpg");
+}
+
+#main {
+    text-align: center;
+    background: #EEEEEE;
+    margin: 30px auto;
+    border-radius: 10px;
+    /*box-shadow: -4px -13px 26px -17px rgba(0,0,0,0.75);*/
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+
+header {
+    padding: 20px 0 0 10px;
+}
+
+#title {
+    letter-spacing: 3px;
+}
+
+header > p {
+    font-size: 1em;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#img-div {
+    background: #FFF;
+    padding: 30px 30px;
+    font-size: 0.8em;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    margin: 10px auto;
+    width: 80%;
+    text-align: left;
+}
+
+#tribute-info > h3 {
+    font-size: 1.3em;
+    background-color: #BEBEBE;
+    padding: 1.2% ;
+    margin: 0 auto;
+    width: 67%;
+}
+
+ul {
+    padding-right: 20px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+li > a:hover {
+    color: #0000FF;
+}
+
+li > strong {
+    font-size: 1.1em;
+}
+
+ul {
+    font-size: 1em;
+    max-width: 700px;
+    text-align: left;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 auto 50px auto;
+}
+
+blockquote {
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+#tribute-link {
+    text-decoration: none;
+    background-color: #99d6ff;
+    margin: 5px auto;
+    padding: 10px;
+    width: 90%;
+}
