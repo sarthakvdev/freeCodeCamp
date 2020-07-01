@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("https://cdn.wallpapersafari.com/91/58/m4OxgJ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.header {
+    max-width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+#title {
+    padding-top: 30px; 
+}
+
+#description {
+    font-size: 1.2em;
+    padding-bottom: 30px;
+}
+
+#survey-form {
+    text-align: center;
+    background: #f8e8ff;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px 20px 30px 40px;
+    border-radius: 15px;
+    font-size: 1.2em;
+}
+
+.clue {
+    font-size: 0.7em;
+}
+
+.form-control {
+    width: 90%;
+    height: 2.5em;
+    border: 1px transparent;
+    border-radius: 10px;
+    font-size: 0.74em;
+    padding: 0px 10px 0px 10px;
+    overflow: visible;
+}
+
+.form-control:hover {
+    background: #ddd;
+}
+
+#dropdown {
+    color: #4a4a4a;
+}
+
+.input-textarea {
+    width: 90%;
+    height: 8em;
+    border: 1px transparent;
+    border-radius: 10px;
+    font-size: 0.8em;
+    resize: vertical;
+    min-height: 120px;
+}
+
+.input-textarea:hover {
+    background: #ddd;
+}
+
+.submit-button {
+    border: none;
+    height: 40px;
+    width: 90%;
+    display: block;
+    background: #360c75;
+    border:2px solid #f52c68;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.1em;
+}
