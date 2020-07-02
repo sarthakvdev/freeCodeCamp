@@ -1,69 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Anime Survey | India</title
-            padding-left: 30px;>
-        <link rel="stylesheet" href="survey.css">
-    </head>
-    <body>  
-        <header class="header">
-              <h1 id="title">Anime popularity Survey of India</h1>
-              <p id="description">Take a short survey to improve our plateform for better recommandations</p>
-        </header>
-          
-        <form id="survey-form">
-              <div class="form-group">
-                  <label id="name-label" for="name">Name</label><br>
-              <input type="text" id="name" name="name" placeholder="Enter your name" class="form-control" required><br><br>
-              </div>
-              <div class="form-group">
-                  <label id="email-label" for="email">Email</label><br>
-                  <input type="email" id="email" name="email" placeholder="Enter you email" class="form-control" required><br><br>
-              </div>
-              <div class="form-class">
-                  <label id="number-label" for="number">Age<span class="clue"> (Between 10-30 only)</label><br>
-                  <input type="number" id="number" name="Enter your age" class="form-control" placeholder="Enter your Age" min="10" max="30" required><br><br> 
-              </div>
-              <!--Validation error if a non-number is entered-->
 
-              <div class="form-group">
-                  <p>Which option describes your experience level? <span class="clue">(Check honestly)</span></p>
-                  <select id="dropdown" name="experience" class="form-control" required>
-                      <option disabled selected value>Select your current Experience</option>
-                      <option value="Newbie">Newbie</option>
-                      <option value="Begineer">Begineer</option>
-                      <option value="Experienced">Experienced</option>
-                      <option value="God">God</option>
-                  </select>
-              </div>
-              
-              <div class="form-group">
-                  <p>Since how many years you are watching Anime?</p>
-                  <label><input name="years" value="less than a year" type="radio" class="input-radio" checked>Less than a year</label><br>
-                  <label><input name="years" value="some" type="radio" class="input-radio">Some</label><br>
-                  <label><input name="years" value="Too many" type="radio" class="input-radio">Too many</label><br> 
-              </div>
-            
-              <div class="form-group">
-                  <p>What do you love most while watching an Anime?
-                    <span class="clue">(Check all that apply)</span>
-                  </p>
-                  <label><input name="prefer" value="action" type="checkbox" class="input-checkbox"/>Action Sequences</label><br>
-                  <label><input name="prefer" value="story" type="checkbox" class="input-checkbox"/>Story and Plot Lines</label><br>
-                  <label><input name="prefer" value="cheesy animation" type="checkbox" class="input-checkbox">Cheesy Animation</label><br>
-                  <label><input name="prefer" value="character" type="checkbox" class="input-checkbox"/>Character Development</label><br>
-                  <label><input name="prefer" value="anime girls" type="checkbox" class="input-checkbox"/>Anime Girls</label><br>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Survey | India</title padding-left: 30px;>
+    <link rel="stylesheet" href="survey.css">
+</head>
 
-              <div class="form-group">
-                <p>Any other opinion to the community? <span class="clue">(in less than 140 words)</span></p>
-                <textarea id="comments" name="commnet" class="input-textarea" placeholder="Enter your opinion here..."></textarea>
-              </div><br>
+<body>
+    <header class="header">
+        <h1 id="title">Anime popularity Survey of India</h1>
+        <p id="description">Take a short survey to improve our plateform for better recommandations</p>
+    </header>
 
-              <div class="form-group">
-                <button type="button" id="submit" class="submit-button">Submit</button>
-              </div>
-        </form>
-    </body>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" class="form-control"
+                required><br><br>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter you email" class="form-control"
+                required><br><br>
+        </div>
+        <div class="form-class">
+            <label id="number-label" for="number">Age<span class="clue"> (Between 10-30 only)</label><br>
+            <input type="number" id="number" name="Enter your age" class="form-control" placeholder="Enter your Age"
+                min="10" max="30" required><br><br>
+        </div>
+        <!--Validation error if a non-number is entered-->
+
+        <div class="form-group">
+            <p>Which option describes your experience level? <span class="clue">(Check honestly)</span></p>
+            <select id="dropdown" name="experience" class="form-control" required>
+                <option disabled selected value>Select your current Experience</option>
+                <option value="Newbie">Newbie</option>
+                <option value="Begineer">Begineer</option>
+                <option value="Experienced">Experienced</option>
+                <option value="God">God</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Since how many years you are watching Anime?</p>
+            <label><input name="years" value="less than a year" type="radio" class="input-radio" checked>Less than a
+                year</label><br>
+            <label><input name="years" value="some" type="radio" class="input-radio">Some</label><br>
+            <label><input name="years" value="Too many" type="radio" class="input-radio">Too many</label><br>
+        </div>
+
+        <div class="form-group">
+            <p>What do you love most while watching an Anime?
+                <span class="clue">(Check all that apply)</span>
+            </p>
+            <label><input name="prefer" value="action" type="checkbox" class="input-checkbox" />Action
+                Sequences</label><br>
+            <label><input name="prefer" value="story" type="checkbox" class="input-checkbox" />Story and Plot
+                Lines</label><br>
+            <label><input name="prefer" value="cheesy animation" type="checkbox" class="input-checkbox">Cheesy
+                Animation</label><br>
+            <label><input name="prefer" value="character" type="checkbox" class="input-checkbox" />Character
+                Development</label><br>
+            <label><input name="prefer" value="anime girls" type="checkbox" class="input-checkbox" />Anime
+                Girls</label><br>
+        </div>
+
+        <div class="form-group">
+            <p>Any other opinion to the community? <span class="clue">(in less than 140 words)</span></p>
+            <textarea id="comments" name="commnet" class="input-textarea"
+                placeholder="Enter your opinion here..."></textarea>
+        </div><br>
+
+        <div class="form-group">
+            <button type="button" id="submit" class="submit-button">Submit</button>
+        </div>
+    </form>
+</body>
+
 </html>
